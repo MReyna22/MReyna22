@@ -97,10 +97,12 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 ## Education & Background
 
 - **Master's Degree in Cybersecurity — In Progress**, Northern Illinois University
+- **Cybersecurity Bootcamp**, Springboard & Northern Illinois University, June 2025
 - **Bachelor of Science in Criminology**, DePaul University, June 2025
-- **Associate Degree in Applied Social Science, Criminal Justice**, College of DuPage
+- **Associate Degree in Applied Social Science, Criminal Justice**, College of DuPage, May 2024
 - United States Marine Corps veteran
 - United States Army infantry veteran
+- Assistant Regional Director of Expansion, Sigma Lambda Beta Intl. Fraternity Inc.
 - Dean's Award for Scholastic Excellence
 - Former Vice President, Alpha Phi Sigma Criminology Honor Society
 
