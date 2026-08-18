@@ -1,215 +1,127 @@
-# Hi, I’m Misael Reyna
+# Hi, I'm Misael Reyna
 
-## Cybersecurity Graduate Student | Military Veteran | Hands-On IT and Security Professional
+## Cybersecurity Graduate Student · Military Veteran · Hands-On IT & Security Builder
 
-I am a cybersecurity graduate student at Northern Illinois University with a background in criminology, military service, and hands-on technical problem-solving.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Misael%20Reyna-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/misaelreyna)
+![Location](https://img.shields.io/badge/Location-Chicago%2C%20Illinois-555555)
+![Focus](https://img.shields.io/badge/Focus-Cybersecurity%20%7C%20IT%20%7C%20Network%20Defense-01696F)
 
-As a United States Marine Corps and United States Army veteran, I bring discipline, adaptability, leadership, and a mission-focused mindset to Information Technology (IT) and cybersecurity.
+I am a cybersecurity graduate student at Northern Illinois University with a Bachelor of Science in Criminology from DePaul University and prior service in both the United States Marine Corps and United States Army infantry.
 
-My goal is to build a career protecting systems, strengthening networks, and helping organizations solve real-world security challenges. I use GitHub to document my technical projects, troubleshooting processes, lessons learned, and continued development as a cybersecurity professional.
+My portfolio focuses on practical problem-solving: recovering failed systems, building and securing lab infrastructure, administering Linux and Windows environments, analyzing risk, validating controls, and documenting the entire process—including the mistakes and unresolved findings.
 
----
-
-## Current Focus
-
-* Network security and segmentation
-* Linux system administration
-* Windows troubleshooting and recovery
-* Firewall configuration and access control
-* Virtual Local Area Networks (VLANs)
-* Cybersecurity labs and practical security exercises
-* Technical documentation and project reporting
-* Ethical hacking and vulnerability assessment fundamentals
+> I do not present home labs or academic exercises as professional production experience. Each repository clearly identifies its scope, evidence, limitations, and current status.
 
 ---
 
 ## Featured Projects
 
-### Secure Home Network with OPNsense and Omada
+### [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) · Working Prototype
 
-I am designing a cybersecurity-focused home network using an OPNsense firewall, Omada managed switching, a wireless access point, and segmented Virtual Local Area Networks (VLANs).
+Recovered a non-booting R36S handheld and transformed it into a dual-purpose ARM Linux terminal and lightweight cybersecurity lab while preserving its gaming functionality.
 
-**Project areas include:**
+**Demonstrates:** removable-media recovery, Linux filesystem analysis, ARM64 administration, Bash, Secure Shell (SSH), USB Wi-Fi investigation, Nmap, privilege review, service troubleshooting, evidence handling, and technical documentation.
 
-* Management, trusted-device, Internet of Things (IoT), and guest networks
-* Firewall rules and traffic-control policies
-* Dynamic Host Configuration Protocol (DHCP) configuration
-* Wired and wireless network segmentation
-* Network validation and security testing
-* Troubleshooting and change documentation
-* Network diagrams and configuration records
+### [Active Directory Home Lab](https://github.com/MReyna22/AD_HL_1) · Complete
 
-**Project status:** Planning and hardware acquisition
+Built a Windows Server 2025 domain in Oracle VirtualBox with Active Directory Domain Services (AD DS), Domain Name System (DNS), Dynamic Host Configuration Protocol (DHCP), Routing and Remote Access Service (RAS)/Network Address Translation (NAT), a domain-joined Windows 10 client, Group Policy, and PowerShell user provisioning.
 
----
+**Demonstrates:** identity and access management, Windows administration, network services, virtualization, Group Policy, PowerShell automation, secure credential handling, troubleshooting, and screenshot-backed documentation.
 
-### R36S Lite Cyberdeck
+### [Secure Home Network Hardening Lab](https://github.com/MReyna22/secure-home-network-lab) · Phase Complete
 
-I am converting an R36S retro gaming handheld into a lightweight Linux-based cyberdeck while preserving its gaming functionality.
+Hardened and validated a personally owned consumer network using a NETGEAR router, Windows workstation, VMware, and Kali Linux. The work included manual firmware remediation, guest isolation testing, service reduction, firewall-log correlation, and documented residual risks.
 
-**Project areas include:**
+**Demonstrates:** network hardening, change management, Nmap validation, Windows Firewall analysis, VMware bridged networking, endpoint service review, risk documentation, and control verification.
 
-* Linux filesystem analysis
-* Firmware recovery and restoration
-* Removable-media security practices
-* Secure Shell (SSH) configuration
-* ARM-based Linux administration
-* Storage imaging and data recovery
-* Hardware compatibility testing
-* Troubleshooting and technical documentation
+### [Simulated Security Assessment](https://github.com/MReyna22/artemis-simulated-security-assessment) · Complete Academic Portfolio
 
-**Project status:** In progress
+Created a four-phase assessment and reporting portfolio for a fictional organization, covering reconnaissance methodology, scan planning, vulnerability assessment, defensive risk analysis, and separate executive and technical reports.
 
----
+**Demonstrates:** assessment scoping, Open-Source Intelligence (OSINT) methodology, vulnerability triage, risk reasoning, defensive detection thinking, ethical judgment, sanitization, and audience-specific reporting.
 
-### Windows 11 Bootable USB Recovery and Installation Media
+### [Secure Containerized 5G Network Slices](https://github.com/MReyna22/CYBR552_CapStone) · Complete Design Capstone
 
-I recovered and repurposed a previously Linux-formatted USB drive to create Windows 11 installation media and perform a clean operating system installation on a nonfunctional computer.
+Designed a multi-slice 5G security architecture for video, Voice over Internet Protocol (VoIP), and Internet of Things (IoT) services using a containerized 5G core, Kubernetes isolation, Software-Defined Networking (SDN), Network Functions Virtualization (NFV), and a six-threat defense model.
 
-**Project areas include:**
+**Demonstrates:** 5G architecture, network slicing, Kubernetes security concepts, Role-Based Access Control (RBAC), network policies, threat modeling, Quality of Service (QoS) security analysis, and architecture documentation.
 
-* Windows storage troubleshooting
-* Disk and partition management
-* Unified Extensible Firmware Interface (UEFI) configuration
-* Bootable installation media creation with Rufus
-* Windows recovery error analysis
-* Clean operating system installation
-* Hardware and architecture validation
-* Windows activation and licensing research
-* Step-by-step technical documentation
+### [Cybersecurity Concepts & Case Study Notes](https://github.com/MReyna22/cybersecurity-concepts-notes) · Curated Knowledge Base
 
-**Project status:** In progress
+A defensive study repository covering frameworks, breach case studies, ethics, legal scope, governance, and security fundamentals.
+
+**Demonstrates:** Cyber Kill Chain, Center for Internet Security (CIS) Controls, Open Worldwide Application Security Project (OWASP) Top 10, Zero Trust, breach root-cause analysis, Governance, Risk, and Compliance (GRC) thinking, sourcing, and technical writing.
 
 ---
 
-## Technical Skills
+## Portfolio at a Glance
 
-### Operating Systems
-
-* Windows 11
-* Kali Linux
-* Linux command-line environments
-* ARM-based Linux systems
-
-### Networking and Security
-
-* OPNsense
-* Omada Software-Defined Networking (SDN)
-* Virtual Local Area Networks (VLANs)
-* Firewall policies
-* Network segmentation
-* Internet Protocol (IP) addressing
-* Dynamic Host Configuration Protocol (DHCP)
-* Secure Shell (SSH)
-* Network scanning with Nmap
-* Access control fundamentals
-* Vulnerability assessment fundamentals
-
-### Virtualization and Technical Support
-
-* VMware
-* Virtual machines
-* USB device passthrough
-* Disk and partition troubleshooting
-* Operating system installation
-* System recovery
-* Bootable media creation
-* Hardware and software troubleshooting
-
-### Documentation and Analysis
-
-* Technical documentation
-* Troubleshooting logs
-* Evidence collection
-* Project planning
-* Security research
-* Risk awareness
-* Root-cause analysis
-* Validation testing
+| Project | Environment | Primary focus | Evidence |
+|---|---|---|---|
+| [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) | ARM64 Linux / embedded hardware | Recovery, administration, scripting, networking | 30 sanitized screenshots, evidence catalog, troubleshooting log |
+| [Active Directory Home Lab](https://github.com/MReyna22/AD_HL_1) | Windows Server 2025 / Windows 10 / VirtualBox | Identity, DNS, DHCP, NAT, Group Policy, PowerShell | Reproducible seven-section guide and live-lab screenshots |
+| [Secure Home Network](https://github.com/MReyna22/secure-home-network-lab) | NETGEAR / Windows / Kali / VMware | Hardening and control validation | Change record, scans, firewall correlation, residual-risk log |
+| [Simulated Security Assessment](https://github.com/MReyna22/artemis-simulated-security-assessment) | Fictional academic environment | Assessment lifecycle and reporting | Risk register, executive report, technical report, methodology |
+| [5G Security Capstone](https://github.com/MReyna22/CYBR552_CapStone) | Design-focused 5G / Kubernetes / SDN | Architecture and threat modeling | Original diagram, threat-defense mapping, reference manifests |
+| [Cybersecurity Notes](https://github.com/MReyna22/cybersecurity-concepts-notes) | Research and coursework synthesis | Frameworks, incidents, ethics, and GRC | Cited analyses and clearly labeled personal interpretations |
 
 ---
 
-## Education
+## Technical Skills Demonstrated in My Repositories
 
-### Master’s Degree in Cybersecurity — In Progress
-
-**Northern Illinois University**
-
-### Bachelor of Science in Criminology
-
-**DePaul University**
-
-Graduated June 2025
-
-### Associate Degree in Applied Social Science, Criminal Justice
-
-**College of DuPage**
+| Domain | Technologies and capabilities |
+|---|---|
+| **Operating systems** | Windows Server 2025, Windows 10/11, Kali Linux, Debian-based Linux, ARM64 Linux |
+| **Identity and Windows infrastructure** | Active Directory Domain Services, Organizational Units, security groups, Group Policy, DNS, DHCP, RAS/NAT, PowerShell |
+| **Networking** | TCP/IP, subnetting, routing, NAT, wireless isolation, Nmap, NetworkManager, firewall validation, SDN/NFV concepts |
+| **Linux and embedded systems** | Bash, SSH/SFTP, services, permissions, storage recovery, EXT4/FAT analysis, package and kernel-module investigation |
+| **Security analysis** | Vulnerability assessment methodology, threat modeling, risk registers, security frameworks, control mapping, residual-risk documentation |
+| **Cloud-native and emerging networks** | Kubernetes namespaces, RBAC, network policies, resource quotas, containerized 5G core and network slicing concepts |
+| **Virtualization and recovery** | Oracle VirtualBox, VMware Workstation, virtual networking, USB passthrough troubleshooting, disk imaging, TestDisk, bootable media |
+| **Professional documentation** | Executive summaries, technical reports, reproducible lab guides, evidence catalogs, troubleshooting logs, architecture diagrams |
 
 ---
 
-## Military and Academic Background
+## How I Work
 
-* United States Marine Corps veteran
-* United States Army infantry veteran
-* Dean’s Award for Scholastic Excellence
-* Former Vice President of the Alpha Phi Sigma Criminology Honor Society
-* Brother of Phi Alpha Delta Pre-Law Fraternity
-* Member of the Phi Alpha Delta Society of Scholars
-
----
-
-## Currently Developing
-
-I am continuing to strengthen my knowledge and practical skills in:
-
-* Cybersecurity operations
-* Network defense
-* Security monitoring
-* Vulnerability management
-* Ethical hacking
-* Incident response
-* Linux administration
-* Enterprise network security
-* Security documentation
-* Information Technology support
+- **Verify controls instead of trusting configuration screens.** I test whether isolation, addressing, authentication, and firewall behavior work end to end.
+- **Document failures as well as successes.** Permission errors, broken sessions, tool limitations, and incorrect assumptions are part of the engineering record.
+- **Separate facts from hypotheses.** My repositories identify what the evidence proves, what remains an interpretation, and what was not tested.
+- **Treat security and ethics as design requirements.** Scope statements, sanitization, authorization boundaries, and credential handling are documented explicitly.
+- **Communicate for the audience.** I write both technical implementation detail and recruiter/leadership-level summaries.
 
 ---
 
-## Career Interests
+## Education & Background
 
-I am interested in opportunities involving:
-
-* Cybersecurity
-* Network security
-* Security operations
-* Information Technology support
-* Systems administration
-* Infrastructure security
-* Technical support
-* Junior cybersecurity analyst roles
+- **Master's Degree in Cybersecurity — In Progress**, Northern Illinois University
+- **Bachelor of Science in Criminology**, DePaul University, June 2025
+- **Associate Degree in Applied Social Science, Criminal Justice**, College of DuPage
+- United States Marine Corps veteran
+- United States Army infantry veteran
+- Dean's Award for Scholastic Excellence
+- Former Vice President, Alpha Phi Sigma Criminology Honor Society
 
 ---
 
-## Professional Strengths
+## Current Direction
 
-* Military leadership and discipline
-* Analytical problem-solving
-* Adaptability
-* Attention to detail
-* Technical curiosity
-* Clear documentation
-* Mission-focused execution
-* Continuous learning
+I am continuing to build practical depth in security operations, network defense, identity and access management, incident response, Linux/Windows administration, vulnerability management, automation, and enterprise infrastructure security.
+
+I am interested in entry-level and early-career opportunities involving cybersecurity analysis, Security Operations Center (SOC) work, network security, systems administration, infrastructure security, and Information Technology support.
+
+---
+
+## Additional Learning Repositories
+
+- [`gophish`](https://github.com/MReyna22/gophish) — a copy of the external open-source Gophish project; not presented as my original work.
+- [`mcp-for-beginners`](https://github.com/MReyna22/mcp-for-beginners) — an external Model Context Protocol learning curriculum; not presented as my original authorship.
+- [`SIEM_SOC_HL`](https://github.com/MReyna22/SIEM_SOC_HL) — reserved for future Security Information and Event Management (SIEM)/SOC home-lab documentation; currently a placeholder and not included as completed work.
 
 ---
 
 ## Connect With Me
 
-I am interested in connecting with cybersecurity professionals, Information Technology leaders, military veterans in technology, mentors, and recruiters.
+[LinkedIn](https://www.linkedin.com/in/misaelreyna) · Chicago, Illinois
 
-* **LinkedIn:** [Connect with me on LinkedIn](https://www.linkedin.com/in/misaelreyna)
-* **Location:** Chicago, Illinois
-
----
-
-> When there's a will, There's a way.
+> When there's a will, there's a way.
