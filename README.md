@@ -28,11 +28,13 @@ Built a Windows Server 2025 domain in Oracle VirtualBox with Active Directory Do
 
 **Demonstrates:** identity and access management, Windows administration, network services, virtualization, Group Policy, PowerShell automation, secure credential handling, troubleshooting, and screenshot-backed documentation.
 
-### [Secure Home Network Hardening Lab](https://github.com/MReyna22/secure-home-network-lab) · Phase Complete
+### [Secure Home Network Hardening Lab](https://github.com/MReyna22/secure-home-network-lab) · Complete for This Phase
 
-Hardened and validated a personally owned consumer network using a NETGEAR router, Windows workstation, VMware, and Kali Linux. The work included manual firmware remediation, guest isolation testing, service reduction, firewall-log correlation, and documented residual risks.
+Hardened and validated a personally owned **NETGEAR Nighthawk XR1000 v1 running DumaOS**, staged behind an existing Internet Service Provider (ISP) gateway and tested with a Windows management workstation plus a bridged Kali Linux virtual machine in VMware Workstation. This repository documents a completed consumer-router hardening cycle—not the separately planned OPNsense/Omada network build.
 
-**Demonstrates:** network hardening, change management, Nmap validation, Windows Firewall analysis, VMware bridged networking, endpoint service review, risk documentation, and control verification.
+The work included vendor-site firmware verification and manual remediation, guest-network isolation testing, disabling Universal Plug and Play (UPnP), port triggering, Digital Living Network Alliance (DLNA), and ReadySHARE services, authorized Nmap validation, Windows Firewall drop-log correlation, endpoint service reduction, and honest documentation of remaining DumaOS limitations.
+
+**Demonstrates:** consumer-router hardening, change management, control validation, VMware Network Address Translation (NAT)-to-bridged migration, Nmap, Windows Firewall analysis, endpoint service review, and residual-risk documentation.
 
 ### [Simulated Security Assessment](https://github.com/MReyna22/artemis-simulated-security-assessment) · Complete Academic Portfolio
 
@@ -60,7 +62,7 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 |---|---|---|---|
 | [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) | ARM64 Linux / embedded hardware | Recovery, administration, scripting, networking | 30 sanitized screenshots, evidence catalog, troubleshooting log |
 | [Active Directory Home Lab](https://github.com/MReyna22/AD_HL_1) | Windows Server 2025 / Windows 10 / VirtualBox | Identity, DNS, DHCP, NAT, Group Policy, PowerShell | Reproducible seven-section guide and live-lab screenshots |
-| [Secure Home Network](https://github.com/MReyna22/secure-home-network-lab) | NETGEAR / Windows / Kali / VMware | Hardening and control validation | Change record, scans, firewall correlation, residual-risk log |
+| [Secure Home Network](https://github.com/MReyna22/secure-home-network-lab) | NETGEAR XR1000/DumaOS · Windows · Kali · VMware | Consumer-router hardening and control validation | Firmware change record, guest-isolation tests, scans, firewall correlation, residual-risk log |
 | [Simulated Security Assessment](https://github.com/MReyna22/artemis-simulated-security-assessment) | Fictional academic environment | Assessment lifecycle and reporting | Risk register, executive report, technical report, methodology |
 | [5G Security Capstone](https://github.com/MReyna22/CYBR552_CapStone) | Design-focused 5G / Kubernetes / SDN | Architecture and threat modeling | Original diagram, threat-defense mapping, reference manifests |
 | [Cybersecurity Notes](https://github.com/MReyna22/cybersecurity-concepts-notes) | Research and coursework synthesis | Frameworks, incidents, ethics, and GRC | Cited analyses and clearly labeled personal interpretations |
