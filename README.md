@@ -30,7 +30,7 @@ Built a Windows Server 2025 domain in Oracle VirtualBox with Active Directory Do
 
 ### [Secure Home Network Hardening Lab](https://github.com/MReyna22/secure-home-network-lab) · Complete for This Phase
 
-Hardened and validated a personally owned **NETGEAR Nighthawk XR1000 v1 running DumaOS**, staged behind an existing Internet Service Provider (ISP) gateway and tested with a Windows management workstation plus a bridged Kali Linux virtual machine in VMware Workstation. This repository documents a completed consumer-router hardening cycle—not the separately planned OPNsense/Omada network build.
+Hardened and validated a personally owned **NETGEAR Nighthawk XR1000 v1 running DumaOS**, staged behind an existing Internet Service Provider (ISP) gateway and tested with a Windows management workstation plus a bridged Kali Linux virtual machine in VMware Workstation.
 
 The work included vendor-site firmware verification and manual remediation, guest-network isolation testing, disabling Universal Plug and Play (UPnP), port triggering, Digital Living Network Alliance (DLNA), and ReadySHARE services, authorized Nmap validation, Windows Firewall drop-log correlation, endpoint service reduction, and honest documentation of remaining DumaOS limitations.
 
@@ -118,7 +118,6 @@ I am interested in entry-level and early-career opportunities involving cybersec
 
 - [`gophish`](https://github.com/MReyna22/gophish) — a copy of the external open-source Gophish project; not presented as my original work.
 - [`mcp-for-beginners`](https://github.com/MReyna22/mcp-for-beginners) — an external Model Context Protocol learning curriculum; not presented as my original authorship.
-- [`SIEM_SOC_HL`](https://github.com/MReyna22/SIEM_SOC_HL) — reserved for future Security Information and Event Management (SIEM)/SOC home-lab documentation; currently a placeholder and not included as completed work.
 
 ---
 
