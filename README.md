@@ -16,6 +16,22 @@ My portfolio focuses on practical problem-solving: recovering failed systems, bu
 
 ## Featured Projects
 
+### [USG Revival](https://github.com/MReyna22/USG-Revival) · Basic Revival & Functional Validation Complete
+
+Repurposed a donated Ubiquiti UniFi Security Gateway with **OpenWrt 25.12.5** after preserving and inspecting its original internal USB. I reused the stock drive, verified the installation, and tested the revived gateway with PC-001 as a wired Windows client.
+
+The recorded results include a successful boot, a hostname retained after reboot, a WAN DHCP lease, Internet reachability, and DNS resolution. Administrator login and webpage loading were confirmed through hands-on testing. The public repository contains **46 reviewed images**, filesystem analysis, installation decisions, validation results, and permanent redactions. Throughput, inbound firewall enforcement, and long-term reliability remain untested.
+
+**Demonstrates:** USB imaging and preservation, FTK Imager, FAT32/Ext3 and SquashFS analysis, checksum verification, OpenWrt installation, Linux troubleshooting, routing and DNS checks, evidence sanitization, and recovery documentation.
+
+### [SLB Corona Donated Gear](https://github.com/MReyna22/slb-corona-donated-gear) · Ongoing Home Lab Build
+
+Tracks 19 items donated by Antonio Corona, from hardware identification and power requirements to configuration, testing, and project assignments. The first completed implementation is the USG revival.
+
+**PC-001**, a Dell OptiPlex 3070 Micro with an Intel Core i5-9500T, 8 GB DDR4, and a 128 GB M.2 PCIe SSD, has completed its initial Windows 11 setup. I confirmed current Windows updates and Wi-Fi functionality; saved screenshots support Ethernet Internet and DNS tests through the USG. Windows Update and PC-001 Wi-Fi screenshots still need to be added to complete the evidence record. Virtual-machine deployment on this computer remains planned.
+
+**Demonstrates:** hardware inventory, BIOS baseline recording, Windows setup, equipment compatibility checks, network troubleshooting, device tracking, and evidence-aware documentation.
+
 ### [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) · Working Prototype
 
 Recovered a non-booting R36S handheld and transformed it into a dual-purpose ARM Linux terminal and lightweight cybersecurity lab while preserving its gaming functionality.
@@ -60,6 +76,8 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 
 | Project | Environment | Primary focus | Evidence |
 |---|---|---|---|
+| [USG Revival](https://github.com/MReyna22/USG-Revival) | Ubiquiti USG / OpenWrt / stock USB / Windows client | Appliance recovery, routing, DNS, evidence handling | 46 reviewed images, installation record, verification results, documented test limits |
+| [SLB Corona Donated Gear](https://github.com/MReyna22/slb-corona-donated-gear) | Donated networking equipment / Windows 11 mini PC | Inventory, hardware inspection, setup, project tracking | Dated inventory and device records; saved network tests; Windows update and Wi-Fi checks are operator-reported |
 | [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) | ARM64 Linux / embedded hardware | Recovery, administration, scripting, networking | 30 sanitized screenshots, evidence catalog, troubleshooting log |
 | [Active Directory Home Lab](https://github.com/MReyna22/AD_HL_1) | Windows Server 2025 / Windows 10 / VirtualBox | Identity, DNS, DHCP, NAT, Group Policy, PowerShell | Reproducible seven-section guide and live-lab screenshots |
 | [Secure Home Network](https://github.com/MReyna22/secure-home-network-lab) | NETGEAR XR1000/DumaOS · Windows · Kali · VMware | Consumer-router hardening and control validation | Firmware change record, guest-isolation tests, scans, firewall correlation, residual-risk log |
@@ -75,11 +93,11 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 |---|---|
 | **Operating systems** | Windows Server 2025, Windows 10/11, Kali Linux, Debian-based Linux, ARM64 Linux |
 | **Identity and Windows infrastructure** | Active Directory Domain Services, Organizational Units, security groups, Group Policy, DNS, DHCP, RAS/NAT, PowerShell |
-| **Networking** | TCP/IP, subnetting, routing, NAT, wireless isolation, Nmap, NetworkManager, firewall validation, SDN/NFV concepts |
-| **Linux and embedded systems** | Bash, SSH/SFTP, services, permissions, storage recovery, EXT4/FAT analysis, package and kernel-module investigation |
+| **Networking** | TCP/IP, subnetting, routing, NAT, OpenWrt, wireless isolation, Nmap, NetworkManager, firewall validation, SDN/NFV concepts |
+| **Linux and embedded systems** | Bash, SSH/SFTP, services, permissions, storage recovery, FAT32/Ext3/Ext4 and SquashFS analysis, package and kernel-module investigation |
 | **Security analysis** | Vulnerability assessment methodology, threat modeling, risk registers, security frameworks, control mapping, residual-risk documentation |
 | **Cloud-native and emerging networks** | Kubernetes namespaces, RBAC, network policies, resource quotas, containerized 5G core and network slicing concepts |
-| **Virtualization and recovery** | Oracle VirtualBox, VMware Workstation, virtual networking, USB passthrough troubleshooting, disk imaging, TestDisk, bootable media |
+| **Virtualization and recovery** | Oracle VirtualBox, VMware Workstation, virtual networking, USB passthrough troubleshooting, disk imaging, FTK Imager, checksum verification, TestDisk, bootable media |
 | **Professional documentation** | Executive summaries, technical reports, reproducible lab guides, evidence catalogs, troubleshooting logs, architecture diagrams |
 
 ---
@@ -109,6 +127,8 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 ---
 
 ## Current Direction
+
+**Lab progress — October 5, 2026:** USG Revival is published, and PC-001's initial setup is complete with evidence gaps identified. My next step is to finish that setup evidence record and choose a workload that fits the computer's available memory and storage.
 
 I am continuing to build practical depth in security operations, network defense, identity and access management, incident response, Linux/Windows administration, vulnerability management, automation, and enterprise infrastructure security.
 
