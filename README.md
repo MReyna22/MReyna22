@@ -28,7 +28,7 @@ The recorded results include a successful boot, a hostname retained after reboot
 
 Tracks 19 items donated by Antonio Corona, from hardware identification and power requirements to configuration, testing, and project assignments. The first completed implementation is the USG revival.
 
-**PC-001**, a Dell OptiPlex 3070 Micro with an Intel Core i5-9500T, 8 GB DDR4, and a 128 GB M.2 PCIe SSD, has completed its initial Windows 11 setup. I confirmed current Windows updates and Wi-Fi functionality; saved screenshots support Ethernet Internet and DNS tests through the USG. Windows Update and PC-001 Wi-Fi screenshots still need to be added to complete the evidence record. Virtual-machine deployment on this computer remains planned.
+**PC-001**, a Dell OptiPlex 3070 Micro with an Intel Core i5-9500T, 8 GB DDR4, and a 128 GB M.2 PCIe SSD, has completed its initial Windows 11 setup. The [device record](https://github.com/MReyna22/slb-corona-donated-gear/blob/main/docs/devices/PC-001.md) now includes redacted screenshots of Windows 11 Pro 25H2, current Windows updates, recognized memory, Windows-reported disk status, and separate Ethernet and Wi-Fi connectivity tests. Both network tests returned four ping replies with no loss and resolved `example.com`; webpage loading was also captured. These are basic functional checks, not throughput or extended reliability tests. Virtual-machine deployment on this computer remains planned.
 
 **Demonstrates:** hardware inventory, BIOS baseline recording, Windows setup, equipment compatibility checks, network troubleshooting, device tracking, and evidence-aware documentation.
 
@@ -77,7 +77,7 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 | Project | Environment | Primary focus | Evidence |
 |---|---|---|---|
 | [USG Revival](https://github.com/MReyna22/USG-Revival) | Ubiquiti USG / OpenWrt / stock USB / Windows client | Appliance recovery, routing, DNS, evidence handling | 46 reviewed images, installation record, verification results, documented test limits |
-| [SLB Corona Donated Gear](https://github.com/MReyna22/slb-corona-donated-gear) | Donated networking equipment / Windows 11 mini PC | Inventory, hardware inspection, setup, project tracking | Dated inventory and device records; saved network tests; Windows update and Wi-Fi checks are operator-reported |
+| [SLB Corona Donated Gear](https://github.com/MReyna22/slb-corona-donated-gear) | Donated networking equipment / Windows 11 mini PC | Inventory, hardware inspection, setup, project tracking | Dated inventory and device records; redacted hardware, Windows setup, update, memory, storage, Ethernet and Wi-Fi evidence |
 | [R36S Lite-Cyberdeck](https://github.com/MReyna22/R36S-Lite-Cyberdeck) | ARM64 Linux / embedded hardware | Recovery, administration, scripting, networking | 30 sanitized screenshots, evidence catalog, troubleshooting log |
 | [Active Directory Home Lab](https://github.com/MReyna22/AD_HL_1) | Windows Server 2025 / Windows 10 / VirtualBox | Identity, DNS, DHCP, NAT, Group Policy, PowerShell | Reproducible seven-section guide and live-lab screenshots |
 | [Secure Home Network](https://github.com/MReyna22/secure-home-network-lab) | NETGEAR XR1000/DumaOS · Windows · Kali · VMware | Consumer-router hardening and control validation | Firmware change record, guest-isolation tests, scans, firewall correlation, residual-risk log |
@@ -128,7 +128,7 @@ A defensive study repository covering frameworks, breach case studies, ethics, l
 
 ## Current Direction
 
-**Lab progress — October 5, 2026:** USG Revival is published, and PC-001's initial setup is complete with evidence gaps identified. My next step is to finish that setup evidence record and choose a workload that fits the computer's available memory and storage.
+**Lab progress — October 5, 2026:** USG Revival is published, and PC-001's initial setup and basic wired/wireless verification are documented with redacted evidence. The donated-gear inventory and device records track confirmed results and remaining verification limits.
 
 I am continuing to build practical depth in security operations, network defense, identity and access management, incident response, Linux/Windows administration, vulnerability management, automation, and enterprise infrastructure security.
 
